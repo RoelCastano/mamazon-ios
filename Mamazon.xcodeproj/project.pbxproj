@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DA1FA151B057914008BD0AC /* MZProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1FA141B057914008BD0AC /* MZProduct.m */; };
+		7DA1FA181B0680EF008BD0AC /* MZApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1FA171B0680EF008BD0AC /* MZApiClient.m */; };
+		7DA1FA1C1B068265008BD0AC /* MZMappingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1FA1B1B068265008BD0AC /* MZMappingManager.m */; };
+		7DA1FA1F1B068305008BD0AC /* MZObjectRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1FA1E1B068305008BD0AC /* MZObjectRequestOperation.m */; };
+		7DA1FA221B06837A008BD0AC /* MZProductMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1FA211B06837A008BD0AC /* MZProductMapping.m */; };
+		7DA1FA261B0685F7008BD0AC /* MZProductsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1FA251B0685F7008BD0AC /* MZProductsTableViewController.m */; };
+		7DA1FA2A1B0689F9008BD0AC /* ProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1FA291B0689F9008BD0AC /* ProductTableViewCell.m */; };
+		7DA1FA2D1B06A147008BD0AC /* MZBuyProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1FA2C1B06A147008BD0AC /* MZBuyProductViewController.m */; };
+		7DA1FA331B06B965008BD0AC /* MZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1FA321B06B965008BD0AC /* MZLoginViewController.m */; };
+		7DA1FA391B06BA9F008BD0AC /* MZUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1FA381B06BA9F008BD0AC /* MZUser.m */; };
+		7DA1FA3C1B06BB53008BD0AC /* MZUserMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1FA3B1B06BB53008BD0AC /* MZUserMapping.m */; };
+		7DA1FA3E1B06F173008BD0AC /* mamazon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DA1FA3D1B06F173008BD0AC /* mamazon.jpg */; };
 		7DF471D31B02B2780091DD68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF471D21B02B2780091DD68 /* main.m */; };
 		7DF471D61B02B2780091DD68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF471D51B02B2780091DD68 /* AppDelegate.m */; };
 		7DF471D91B02B2780091DD68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF471D81B02B2780091DD68 /* ViewController.m */; };
@@ -14,6 +26,7 @@
 		7DF471DE1B02B2780091DD68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF471DD1B02B2780091DD68 /* Images.xcassets */; };
 		7DF471E11B02B2780091DD68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DF471DF1B02B2780091DD68 /* LaunchScreen.xib */; };
 		7DF471ED1B02B2780091DD68 /* MamazonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF471EC1B02B2780091DD68 /* MamazonTests.m */; };
+		D5A2F915F066A2FCF89F4856 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EE7D08AA3E01FA10ED04C2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +40,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E04CFD8B22487F8EA7F7DA6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		39EE7D08AA3E01FA10ED04C2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA1FA131B057914008BD0AC /* MZProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZProduct.h; sourceTree = "<group>"; };
+		7DA1FA141B057914008BD0AC /* MZProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZProduct.m; sourceTree = "<group>"; };
+		7DA1FA161B0680EF008BD0AC /* MZApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZApiClient.h; sourceTree = "<group>"; };
+		7DA1FA171B0680EF008BD0AC /* MZApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZApiClient.m; sourceTree = "<group>"; };
+		7DA1FA1A1B068265008BD0AC /* MZMappingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMappingManager.h; sourceTree = "<group>"; };
+		7DA1FA1B1B068265008BD0AC /* MZMappingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMappingManager.m; sourceTree = "<group>"; };
+		7DA1FA1D1B068305008BD0AC /* MZObjectRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZObjectRequestOperation.h; sourceTree = "<group>"; };
+		7DA1FA1E1B068305008BD0AC /* MZObjectRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZObjectRequestOperation.m; sourceTree = "<group>"; };
+		7DA1FA201B06837A008BD0AC /* MZProductMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZProductMapping.h; sourceTree = "<group>"; };
+		7DA1FA211B06837A008BD0AC /* MZProductMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZProductMapping.m; sourceTree = "<group>"; };
+		7DA1FA241B0685F7008BD0AC /* MZProductsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZProductsTableViewController.h; sourceTree = "<group>"; };
+		7DA1FA251B0685F7008BD0AC /* MZProductsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZProductsTableViewController.m; sourceTree = "<group>"; };
+		7DA1FA281B0689F9008BD0AC /* ProductTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewCell.h; sourceTree = "<group>"; };
+		7DA1FA291B0689F9008BD0AC /* ProductTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewCell.m; sourceTree = "<group>"; };
+		7DA1FA2B1B06A147008BD0AC /* MZBuyProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBuyProductViewController.h; sourceTree = "<group>"; };
+		7DA1FA2C1B06A147008BD0AC /* MZBuyProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBuyProductViewController.m; sourceTree = "<group>"; };
+		7DA1FA311B06B965008BD0AC /* MZLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZLoginViewController.h; sourceTree = "<group>"; };
+		7DA1FA321B06B965008BD0AC /* MZLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZLoginViewController.m; sourceTree = "<group>"; };
+		7DA1FA371B06BA9F008BD0AC /* MZUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZUser.h; sourceTree = "<group>"; };
+		7DA1FA381B06BA9F008BD0AC /* MZUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZUser.m; sourceTree = "<group>"; };
+		7DA1FA3A1B06BB53008BD0AC /* MZUserMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZUserMapping.h; sourceTree = "<group>"; };
+		7DA1FA3B1B06BB53008BD0AC /* MZUserMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZUserMapping.m; sourceTree = "<group>"; };
+		7DA1FA3D1B06F173008BD0AC /* mamazon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mamazon.jpg; sourceTree = "<group>"; };
 		7DF471CD1B02B2780091DD68 /* Mamazon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mamazon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF471D11B02B2780091DD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DF471D21B02B2780091DD68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +78,7 @@
 		7DF471E61B02B2780091DD68 /* MamazonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamazonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF471EB1B02B2780091DD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DF471EC1B02B2780091DD68 /* MamazonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MamazonTests.m; sourceTree = "<group>"; };
+		90C71E9D534F49CE72040CE7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5A2F915F066A2FCF89F4856 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +100,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		617D31207F3BF60F25C6BBBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90C71E9D534F49CE72040CE7 /* Pods.debug.xcconfig */,
+				1E04CFD8B22487F8EA7F7DA6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76CF6204ABE582A6179BF3F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39EE7D08AA3E01FA10ED04C2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DA1FA121B0578AE008BD0AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7DA1FA191B068243008BD0AC /* Mappings */,
+				7DA1FA131B057914008BD0AC /* MZProduct.h */,
+				7DA1FA141B057914008BD0AC /* MZProduct.m */,
+				7DA1FA371B06BA9F008BD0AC /* MZUser.h */,
+				7DA1FA381B06BA9F008BD0AC /* MZUser.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7DA1FA191B068243008BD0AC /* Mappings */ = {
+			isa = PBXGroup;
+			children = (
+				7DA1FA1A1B068265008BD0AC /* MZMappingManager.h */,
+				7DA1FA1B1B068265008BD0AC /* MZMappingManager.m */,
+				7DA1FA201B06837A008BD0AC /* MZProductMapping.h */,
+				7DA1FA211B06837A008BD0AC /* MZProductMapping.m */,
+				7DA1FA3A1B06BB53008BD0AC /* MZUserMapping.h */,
+				7DA1FA3B1B06BB53008BD0AC /* MZUserMapping.m */,
+			);
+			name = Mappings;
+			sourceTree = "<group>";
+		};
+		7DA1FA231B0685C1008BD0AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DF471D71B02B2780091DD68 /* ViewController.h */,
+				7DF471D81B02B2780091DD68 /* ViewController.m */,
+				7DA1FA241B0685F7008BD0AC /* MZProductsTableViewController.h */,
+				7DA1FA251B0685F7008BD0AC /* MZProductsTableViewController.m */,
+				7DA1FA2B1B06A147008BD0AC /* MZBuyProductViewController.h */,
+				7DA1FA2C1B06A147008BD0AC /* MZBuyProductViewController.m */,
+				7DA1FA311B06B965008BD0AC /* MZLoginViewController.h */,
+				7DA1FA321B06B965008BD0AC /* MZLoginViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7DA1FA271B068830008BD0AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DA1FA281B0689F9008BD0AC /* ProductTableViewCell.h */,
+				7DA1FA291B0689F9008BD0AC /* ProductTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		7DF471C41B02B2780091DD68 = {
 			isa = PBXGroup;
 			children = (
 				7DF471CF1B02B2780091DD68 /* Mamazon */,
 				7DF471E91B02B2780091DD68 /* MamazonTests */,
 				7DF471CE1B02B2780091DD68 /* Products */,
+				617D31207F3BF60F25C6BBBA /* Pods */,
+				76CF6204ABE582A6179BF3F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,12 +189,14 @@
 		7DF471CF1B02B2780091DD68 /* Mamazon */ = {
 			isa = PBXGroup;
 			children = (
+				7DA1FA271B068830008BD0AC /* Views */,
+				7DA1FA231B0685C1008BD0AC /* Controllers */,
+				7DA1FA121B0578AE008BD0AC /* Models */,
 				7DF471D41B02B2780091DD68 /* AppDelegate.h */,
 				7DF471D51B02B2780091DD68 /* AppDelegate.m */,
-				7DF471D71B02B2780091DD68 /* ViewController.h */,
-				7DF471D81B02B2780091DD68 /* ViewController.m */,
 				7DF471DA1B02B2780091DD68 /* Main.storyboard */,
 				7DF471DD1B02B2780091DD68 /* Images.xcassets */,
+				7DA1FA3D1B06F173008BD0AC /* mamazon.jpg */,
 				7DF471DF1B02B2780091DD68 /* LaunchScreen.xib */,
 				7DF471D01B02B2780091DD68 /* Supporting Files */,
 			);
@@ -98,6 +208,10 @@
 			children = (
 				7DF471D11B02B2780091DD68 /* Info.plist */,
 				7DF471D21B02B2780091DD68 /* main.m */,
+				7DA1FA161B0680EF008BD0AC /* MZApiClient.h */,
+				7DA1FA171B0680EF008BD0AC /* MZApiClient.m */,
+				7DA1FA1D1B068305008BD0AC /* MZObjectRequestOperation.h */,
+				7DA1FA1E1B068305008BD0AC /* MZObjectRequestOperation.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -126,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DF471F01B02B2780091DD68 /* Build configuration list for PBXNativeTarget "Mamazon" */;
 			buildPhases = (
+				D2BAE8565C6002508CAC57D3 /* Check Pods Manifest.lock */,
 				7DF471C91B02B2780091DD68 /* Sources */,
 				7DF471CA1B02B2780091DD68 /* Frameworks */,
 				7DF471CB1B02B2780091DD68 /* Resources */,
+				474DF097F143F32D778C0AC4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DF471DC1B02B2780091DD68 /* Main.storyboard in Resources */,
+				7DA1FA3E1B06F173008BD0AC /* mamazon.jpg in Resources */,
 				7DF471E11B02B2780091DD68 /* LaunchScreen.xib in Resources */,
 				7DF471DE1B02B2780091DD68 /* Images.xcassets in Resources */,
 			);
@@ -214,14 +331,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		474DF097F143F32D778C0AC4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2BAE8565C6002508CAC57D3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DF471C91B02B2780091DD68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA1FA261B0685F7008BD0AC /* MZProductsTableViewController.m in Sources */,
+				7DA1FA1F1B068305008BD0AC /* MZObjectRequestOperation.m in Sources */,
+				7DA1FA221B06837A008BD0AC /* MZProductMapping.m in Sources */,
+				7DA1FA181B0680EF008BD0AC /* MZApiClient.m in Sources */,
+				7DA1FA3C1B06BB53008BD0AC /* MZUserMapping.m in Sources */,
 				7DF471D91B02B2780091DD68 /* ViewController.m in Sources */,
+				7DA1FA331B06B965008BD0AC /* MZLoginViewController.m in Sources */,
 				7DF471D61B02B2780091DD68 /* AppDelegate.m in Sources */,
+				7DA1FA2D1B06A147008BD0AC /* MZBuyProductViewController.m in Sources */,
+				7DA1FA391B06BA9F008BD0AC /* MZUser.m in Sources */,
+				7DA1FA1C1B068265008BD0AC /* MZMappingManager.m in Sources */,
+				7DA1FA151B057914008BD0AC /* MZProduct.m in Sources */,
 				7DF471D31B02B2780091DD68 /* main.m in Sources */,
+				7DA1FA2A1B0689F9008BD0AC /* ProductTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +506,7 @@
 		};
 		7DF471F11B02B2780091DD68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C71E9D534F49CE72040CE7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mamazon/Info.plist;
@@ -355,6 +517,7 @@
 		};
 		7DF471F21B02B2780091DD68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E04CFD8B22487F8EA7F7DA6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mamazon/Info.plist;
@@ -416,6 +579,7 @@
 				7DF471F21B02B2780091DD68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DF471F31B02B2780091DD68 /* Build configuration list for PBXNativeTarget "MamazonTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +588,7 @@
 				7DF471F51B02B2780091DD68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MZMappingManager.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [MZMappingManager setup];
+    
+    /*
+    if (self.currentUser == nil) {
+        ILSignInViewController *signInVC = [[ILSignInViewController alloc] init];
+        self.window.rootViewController = signInVC;
+    } else {
+        self.window.rootViewController = sideMenu;
+    }
+     */
+
     return YES;
 }
 
